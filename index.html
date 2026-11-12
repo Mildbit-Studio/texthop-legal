@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TextHop 개인정보 처리방침</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --fg: #111;
+    --muted: #555;
+    --bg: #fff;
+    --accent: #0a5cff;
+    --border: #e5e5ea;
+    --code: #f4f4f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #f5f5f7;
+      --muted: #a1a1a6;
+      --bg: #0b0b0f;
+      --accent: #5c9dff;
+      --border: #2c2c30;
+      --code: #1c1c21;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { padding-bottom: 24px; border-bottom: 1px solid var(--border); margin-bottom: 32px; }
+  h1 { font-size: 1.75rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin: 0; }
+  h2 { font-size: 1.15rem; margin: 36px 0 10px; }
+  p { margin: 10px 0; }
+  ul { padding-left: 1.2em; margin: 10px 0; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>TextHop 개인정보 처리방침</h1>
+    <p class="meta">시행일 2026년 11월 12일 · Mildbit Studio</p>
+  </header>
+
+  <p>Mildbit Studio(이하 “개발자”)는 TextHop(이하 “앱”)을 제공하며, 사용자의 개인정보를 중요하게 생각합니다. 이 방침은 앱이 어떤 정보를 처리하고 처리하지 않는지 설명합니다.</p>
+
+  <h2>1. 수집하지 않는 정보</h2>
+  <ul>
+    <li>이름, 이메일, 전화번호 등 개인을 식별할 수 있는 정보를 수집하지 않습니다.</li>
+    <li>회원가입, 로그인, 사용자 계정을 운영하지 않습니다.</li>
+    <li>카메라 영상과 인식된 텍스트를 외부 서버로 전송하지 않습니다.</li>
+    <li>광고 식별자나 분석 SDK를 사용하지 않습니다.</li>
+  </ul>
+
+  <h2>2. 카메라와 텍스트 인식</h2>
+  <ul>
+    <li>텍스트 인식을 위해 카메라 접근 권한을 요청합니다. 다른 권한은 요청하지 않습니다.</li>
+    <li>카메라 영상과 인식 결과는 기기 내에서만 처리됩니다.</li>
+    <li>OCR은 Apple VisionKit 및 Vision 프레임워크를 통해 온디바이스로 수행됩니다.</li>
+  </ul>
+
+  <h2>3. 데이터 보관과 삭제</h2>
+  <ul>
+    <li>수집한 텍스트는 앱 실행 중 메모리에만 보관됩니다.</li>
+    <li>앱을 종료하거나 설정의 “세션 데이터 삭제”를 실행하면 즉시 제거됩니다.</li>
+    <li>앱은 사진 라이브러리에 접근하거나 이미지를 저장하지 않습니다.</li>
+    <li>기본 실행 모드, 출력 형식 등 설정값은 기기의 UserDefaults에 저장되며 개인정보를 포함하지 않습니다.</li>
+  </ul>
+
+  <h2>4. 클립보드와 Apple 공통 클립보드</h2>
+  <ul>
+    <li>복사한 텍스트는 iOS 클립보드에 저장됩니다.</li>
+    <li>같은 Apple ID의 기기에서 Handoff 및 공통 클립보드가 활성화된 경우 Mac 등 다른 기기에서 붙여넣을 수 있습니다.</li>
+    <li>클립보드 데이터의 수명과 삭제는 iOS와 Apple 공통 클립보드가 관리합니다. 앱은 다른 기기에 남은 데이터를 제어하거나 전달 여부를 확인할 수 없습니다.</li>
+  </ul>
+
+  <h2>5. 외부 AI 서비스</h2>
+  <ul>
+    <li>앱은 ChatGPT, Claude 등 외부 AI 서비스와 직접 연동하지 않습니다.</li>
+    <li>사용자가 복사한 텍스트를 외부 서비스에 붙여넣는 경우 해당 서비스의 개인정보 처리방침이 적용됩니다.</li>
+    <li>업무용 기밀 문서 등 민감한 정보를 외부 서비스에 입력할 때는 각 서비스의 정책과 소속 조직의 보안 규정을 확인하세요.</li>
+  </ul>
+
+  <h2>6. 제3자 제공</h2>
+  <ul>
+    <li>개발자는 사용자의 데이터를 수집하거나 제3자에게 제공하지 않습니다.</li>
+    <li>앱에는 외부 분석 또는 광고 SDK가 포함되어 있지 않습니다.</li>
+  </ul>
+
+  <h2>7. 아동의 개인정보</h2>
+  <p>앱은 아동을 대상으로 하지 않으며, 아동의 개인정보를 수집하지 않습니다.</p>
+
+  <h2>8. 방침 변경</h2>
+  <p>본 방침이 변경되면 이 페이지를 통해 고지합니다. 중요한 변경이 있는 경우 앱 업데이트 노트에 함께 안내합니다.</p>
+
+  <h2>9. 문의</h2>
+  <p>개인정보 처리방침에 관한 문의는 <a href="https://github.com/Mildbit-Studio">Mildbit Studio GitHub</a>를 통해 보내주세요.</p>
+
+  <footer>© 2026 Mildbit Studio. All rights reserved.</footer>
+</main>
+</body>
+</html>
